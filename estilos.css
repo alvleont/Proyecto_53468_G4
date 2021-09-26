@@ -59,3 +59,9 @@ body{
     width: 103%;
     color: #fff;
 }
+.degradado-tres-colores {  
+    background: linear-gradient(to top, blue, cyan, white);  
+    /*border: 1px solid #333;  
+    width: 200px;  
+    height: 100px; -->*/
+    }  
