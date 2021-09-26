@@ -13,11 +13,16 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: #afafafcc;
+    background: #afafafaa;
 }
 
 #nav_drawer #logo{
-    height: 70px;
+    width:100%;
+    line-height: 10vh; 
+    height: 10vh;
+    text-align:center;
+    vertical-align: middle;
+    font-weight: bold;
 
 }
 
@@ -29,7 +34,7 @@ body{
     height: 10vh;
     background: #cfcfcfcc;
     width: 101%;
-    border: 1px solid #cfcfcf;
+    border: 1px solid #333333;
     text-align: center;
     vertical-align: middle;
     line-height: 10vh; 
@@ -53,12 +58,4 @@ body{
     background: #009900cc;
     width: 103%;
     color: #fff;
-}
-#logo{
-    width:100%;
-    line-height: 10vh; 
-    height: 10vh;
-    text-align:center;
-    vertical-align: middle;
-    font-weight: bold;
 }
