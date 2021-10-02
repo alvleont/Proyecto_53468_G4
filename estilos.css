@@ -15,6 +15,9 @@ body{
     left: 0;
     background: #afafafaa;
 }
+#bodyContainer{
+    margin-left:22%
+}
 
 #nav_drawer #logo{
     width:100%;
@@ -65,3 +68,7 @@ body{
     width: 200px;  
     height: 100px; -->*/
     }  
+
+#ulCreators{
+    list-style: none;
+}
