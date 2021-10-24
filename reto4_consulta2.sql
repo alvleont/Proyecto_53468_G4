@@ -1,1 +1,1 @@
-SELECT COUNT(*) FROM usuarios WHERE Edad >=18
+SELECT COUNT(*) FROM usuarios WHERE Edad >18

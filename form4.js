@@ -1,11 +1,11 @@
 function validar_nombre(string) {
-       let valido = true;
-    if (string.length() > 4 AND string.lenght() <= 30) {
+       var valido = true;
+    if (string.length > 4 && string.length <= 30) {
         var iChars = "@!_-/0123456789";
         for (var i = 0; i < string.length; i++) {
 
             if (iChars.indexOf(string.charAt(i)) != -1) {
-                return false;
+                valido = false;
             }
 
         }
@@ -14,18 +14,21 @@ function validar_nombre(string) {
         valido = false;
     }
 
-    return true;
+    return valido;
 
 }
 
 function validar_contrasenas(string1,string2) {
 
-    let valido = true;
-    if(string1.valueOf() != string2.valueOf)
+    var valido = true;
+    if(string1.valueOf() != string2.valueOf())
     {
         valido = false;
     }
 
+    return valido;
+
 }
+
 module.exports.validar_nombre = validar_nombre;
 module.exports.validar_contrasenas = validar_contrasenas;
